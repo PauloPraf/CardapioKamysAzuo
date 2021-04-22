@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "737908826062",
+    "project_id": "kamysazuo",
+    "storage_bucket": "kamysazuo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:737908826062:android:dc8028851879a77b57159f",
+        "android_client_info": {
+          "package_name": "com.ufms.kamyzazuo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "737908826062-8lpldplc56jene4sfbqdk31k2qovv7tk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0KhfmT9ksE_aL_HRX49BUSegX2ud02Kk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "737908826062-8lpldplc56jene4sfbqdk31k2qovv7tk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
