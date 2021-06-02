@@ -6,5 +6,10 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="bttVerde">#1AC69C</color>
+    <color name="bttAzulClaro">#84D6F0</color>
+    <color name="bttVerdePiscina">#1AC69C</color>
+    <color name="bttRosa">#E21176</color>
+    <color name="bttAmarelo">#F8DE7E</color>
 </resources>

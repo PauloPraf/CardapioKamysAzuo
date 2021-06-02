@@ -12,9 +12,9 @@
         android:id="@+id/imageView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="47dp"
-        android:layout_marginBottom="58dp"
-        app:layout_constraintBottom_toTopOf="@+id/bttcardapioinic"
+        android:layout_marginTop="54dp"
+        android:layout_marginBottom="163dp"
+        app:layout_constraintBottom_toTopOf="@+id/iconelocalizacao"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -23,7 +23,7 @@
     <Button
         android:id="@+id/bttcardapioinic"
         android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_height="60dp"
         android:layout_marginStart="63dp"
         android:layout_marginLeft="63dp"
         android:layout_marginEnd="63dp"
@@ -32,7 +32,7 @@
         android:text="Cardápio"
         android:textSize="18sp"
         android:textStyle="bold"
-        app:backgroundTint="#1AC69C"
+        app:backgroundTint="@color/bttVerdePiscina"
         app:cornerRadius="15dp"
         app:layout_constraintBottom_toTopOf="@+id/iconelocalizacao"
         app:layout_constraintEnd_toEndOf="parent"
@@ -41,17 +41,20 @@
 
     <ImageView
         android:id="@+id/iconelocalizacao"
-        android:layout_width="0dp"
+        android:layout_width="71dp"
         android:layout_height="0dp"
-        android:layout_marginStart="97dp"
-        android:layout_marginLeft="97dp"
-        android:layout_marginBottom="26dp"
-        app:layout_constraintBottom_toTopOf="@+id/bttloginfunc"
-        app:layout_constraintEnd_toStartOf="@+id/bttloginfunc"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bttcardapioinic"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginRight="29dp"
+        android:layout_marginBottom="160dp"
+        android:contentDescription="TODO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/txtefunc"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
         app:srcCompat="@drawable/localizacao_logo"
-        android:contentDescription="TODO" />
+        tools:ignore="VectorDrawableCompat" />
 
     <Button
         android:id="@+id/bttlocalizacao"
@@ -79,7 +82,8 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="10dp"
         android:layout_marginRight="10dp"
-        android:layout_marginBottom="83dp"
+        android:layout_marginBottom="88dp"
+        android:fontFamily="@font/ubuntulight"
         android:text="É um funcionario?"
         android:textColor="#090909"
         android:textSize="18sp"
@@ -107,7 +111,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/txtefunc"
-        app:layout_constraintTop_toBottomOf="@+id/iconelocalizacao" />
+        app:layout_constraintTop_toBottomOf="@+id/iconelocalizacao"
+        app:layout_constraintVertical_bias="1.0" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
