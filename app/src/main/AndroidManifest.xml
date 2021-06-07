@@ -15,7 +15,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.KamyzAzuo">
-        <activity android:name=".MenuDoFunc"></activity>
+        <activity android:name=".TelaCardapioPicoles"></activity>
+        <activity android:name=".TelaCardapioBebidas" />
+        <activity android:name=".TelaCardapioSorvete" />
+        <activity android:name=".MenuDoFunc" />
         <activity android:name=".Cardapio" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".DadosLocalizacao" />

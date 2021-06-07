@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".TelaCardapioSorvete">
+
+
+    <ImageView
+        android:id="@+id/miniLogoSovs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/minilogo" />
+
+    <ImageView
+        android:id="@+id/sorvetesimgv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/miniLogoSovs"
+        app:srcCompat="@drawable/bttsorvete" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="302dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@+id/sorvetesimgv"
+        app:layout_constraintTop_toBottomOf="@+id/sorvetesimgv" />
+
+    <ImageButton
+        android:id="@+id/bttInfosSorv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="45dp"
+        android:backgroundTint="@color/white"
+        android:elegantTextHeight="false"
+        android:foregroundTint="#00FFFFFF"
+        android:shadowColor="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/bttinfos" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
